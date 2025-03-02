@@ -12,9 +12,9 @@ import torch
 import torch.nn as nn
 from functools import partial
 
-from timm.models.vision_transformer import _cfg, Mlp
-from timm.models.registry import register_model
-from timm.models.layers import DropPath, trunc_normal_, to_2tuple
+from timm.models.vision_transformer import _cfg, Mlp #type: ignore
+from timm.models.registry import register_model # type: ignore
+from timm.models.layers import DropPath, trunc_normal_, to_2tuple # type: ignore
 
 from einops import rearrange, repeat
 
